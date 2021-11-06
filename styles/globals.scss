@@ -1,0 +1,5 @@
+@import '~bootstrap/scss/bootstrap';
+$metamask-orange: #e2761b;
+.btn-metamask {
+  @include button-variant($metamask-orange, $metamask-orange, $white);
+}
